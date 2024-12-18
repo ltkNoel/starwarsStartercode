@@ -1,5 +1,4 @@
-/*phone*/
-
+/* phone */
 img {
   align-self: center;
 }
@@ -7,23 +6,25 @@ img {
 
 
 @import url("https://fonts.googleapis.com/css?family=Lato|Poller+One&display=swap");
-@font-face {
-  font-family: "SF Distant Galaxy";
-  src: url("SFDistantGalaxy.ttf") format("truetype");
-}
+
 
 
 body {
   background-color: #000000;
 }
 
-
+@font-face {
+  font-family: "SF Distant Galaxy";
+  src: url("SFDistantGalaxy.ttf") format("truetype");
+}
 
 h1 {
   font-family: "SF Distant Galaxy";
 }
 
 body{background:pink}
+
+
 .row{
   display:flex;
   flex-direction:column;
